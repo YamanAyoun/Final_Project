@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #151412;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+}
+
+header nav ul ,li{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+header nav a:hover{
+    color: #96b2e1;
+    
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header nav li{
+    color: white;
+}
+
+header nav li:hover{
+    color: #96b2e1;
+
+}
+
+.signn{
+    background-color: #737d90b5;
+    border-color: #a4733a;
+    border-radius: 50px;
+    height: 40px;
+    margin-top: 16px;
+}
+
+
+
+.video{
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 50%; 
+    background-color: #183b3d75;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/ss.gif);
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    
+}
+.video img{
+    margin-left: 30%;
+    width: 600px;
+    height: 600px;
+
+}
+
+.video video{
+    width: 100%;
+    
+    
+  }
+
+.space img{
+    height: 200px;
+    width: 100%;
+}
+
+
+.drinkOne{
+    background-color: #e88f2a;
+}
+
+
+.drink p{
+    color: black;
+}
+.drink{
+    background-color: #151412;
+}
+
+
+.newcoffee{
+     background-color: #96b2e1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: x-large;
+ 
+
+  }
+
+.newcoffee h2, p{
+    color: #1e3932;
+}
+
+.newcoffee button{
+    background-color: #96b2e1;
+    border-color: #1e3932;
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+
+}
+
+.newcoffee button:hover{
+
+    background-color: #889cbf;
+}
+
+
+.newcoffee img{
+    width: 900px;
+    height: 700px;
+}
+
+
+footer{
+     
+    background: #151412;
+    padding-top: 10px;
+    
+}
+
+.icon{
+
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+
+.icon p{
+    color: white;
+    
+}
+
+
+.icon a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+
+.icon a:hover i{
+    color: #889cbf;
+}
+
+
+.login div{
+
+    border-style: outset;
+    border-radius: 10px;
+    width: 500px;
+    height: 400px;
+    margin: 40px;
+    background-color: aliceblue;
+    margin-left: 500px;
+    
+}
+
+.login div h2{
+    text-align: center;
+}
+
+.login div input{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: white;
+    width: 400px;
+    
+}
+
+.login div label{
+
+    font-weight: bold;
+    margin-left: 6px;
+    color: #151412;
+
+
+}
+
+.login div button{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.605);
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 200px;
+    
+    
+}
+
+.login div button:hover{
+    background-color: #627f75;
+}
+
+.sign{
+
+    border-style: outset;
+    border-radius: 10px;
+    width: 500px;
+    height: 600px;
+    margin: 40px;
+    background-color: aliceblue;
+    margin-left: 500px;
+    
+}
+
+.sign h2{
+    text-align: center;
+}
+
+.sign input{
+    margin: 20px;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: white;
+    width: 400px;
+    
+}
+
+.sign label{
+
+    font-weight: bold;
+    margin-left: 6px;
+    color: #151412;
+
+
+}
+
+.sign button{
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgba(250, 235, 215, 0.605);
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 200px;
+    
+    
+}
+
+.sign button:hover{
+    background-color: #627f75;
+} 
+
+
+.men{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.men img{
+    height: 300px;
+    width: 200px;
+    box-shadow: none;
+    border-radius: 10px;
+    /* position: relative; */
+    /* font: inherit; */
+    max-width: 100%;
+    height: auto;
+
+}
+
+.men p, h5{
+    text-align: center;
+    width: 200px;
+}
+
+.men button{
+    background-color: rgba(250, 235, 215, 0.571);
+    border-radius: 10px;
+    border-color: antiquewhite;
+}
+
+.men button:hover{
+    background-color: #96b2e1;
+}
+
+.ms-contact-section iframe {
+    width: 80%;
+    height: 250px;
+    margin-bottom: -7px;
+    border-radius: 3px;
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+ 
+ 
+ 
